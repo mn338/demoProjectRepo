@@ -31,6 +31,32 @@ public class CalculatorTest {
 	}		
 
 	@Test
+	public void subMethodTest1() 
+	{
+		Calculator c = new Calculator();
+		int result = c.sub(20, 5);
+		assertEquals(15, result);
+	}
+
+	@Test
+	public void subMethodTest2() 
+	{
+		Calculator c = new Calculator();
+		int result = c.sub(-20, 5);
+		assertEquals(-25, result);
+	}	
+	
+	@Test
+	public void subMethodTest3() 
+	{
+		Calculator c = new Calculator();
+		int result = c.sub(0, 0);
+		assertEquals(0, result);
+	}		
+	
+	
+	
+	@Test
 	public void factorialMethodTest1() 
 	{
 		Calculator c = new Calculator();
