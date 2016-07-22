@@ -29,4 +29,28 @@ public class CalculatorTest {
 		int result = c.add(-5, 20);
 		assertEquals(15, result);
 	}		
+
+	@Test
+	public void factorialMethodTest1() 
+	{
+		Calculator c = new Calculator();
+		int result = c.factorial(3);
+		assertEquals(6, result);
+	}
+
+	@Test
+	public void factorialMethodTest2() 
+	{
+		Calculator c = new Calculator();
+		int result = c.factorial(1);
+		assertEquals(1, result);
+	}	
+
+	@Test
+	public void factorialMethodTest3() 
+	{
+		Calculator c = new Calculator();
+		int result = c.factorial(5);
+		assertEquals(60, result);
+	}
 }
