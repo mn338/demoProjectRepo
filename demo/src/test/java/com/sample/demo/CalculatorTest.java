@@ -51,6 +51,6 @@ public class CalculatorTest {
 	{
 		Calculator c = new Calculator();
 		int result = c.factorial(5);
-		assertEquals(60, result);
+		assertEquals(120, result);
 	}
 }
