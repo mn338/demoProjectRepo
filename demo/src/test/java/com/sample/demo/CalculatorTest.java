@@ -54,6 +54,15 @@ public class CalculatorTest {
 		assertEquals(0, result);
 	}		
 	
+
+	@Test
+	public void mulMethodTest1() 
+	{
+		Calculator c = new Calculator();
+		int result = c.mul(5, 10);
+		assertEquals(50, result);
+	}		
+	
 	
 	
 	@Test
